@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/Projects/project1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Isha's Fitness And Centre</title>
+<link href="./Isha&#39;s Fitness And Centre_files/css2" rel="stylesheet"><link rel="stylesheet" href="./Isha&#39;s Fitness And Centre_files/project1.css"><style>
+   body{
+      margin:0px;
+      padding:0px;
+      background: url('bg1.jpg');  
+      font-family: 'Baloo 2', cursive;
+
+   } 
+   .left{
+     color: white;
+     display: inline-block;  
+     /* border: 2px solid pink; */
+     position: absolute;
+      left: 34px;  
+      top:12px;   
+      height: 41px;
+      text-align: center; 
+      width: 43px; 
+      font-size: 3px;
+   } 
+   .centre{   
+      display: block; 
+      width: 33%;
+      color: white;
+      margin: 12px auto; 
+      /* border: 2px solid yellow;  */ 
+      list-style: none; 
+      font-size: large;
+   }
+   .right{  
+      display: inline-block;
+     color: white;
+      /* border:2px solid green; */
+      position: absolute;
+      right: 34px; 
+      top:20px;
+   } 
+   .navbar{
+      display: inline-block; 
+   } 
+   .navbar li{ 
+      list-style: none; 
+      display: inline-block;
+   } 
+   .navbar li a{
+      text-decoration:none;  
+      /* spacing btw the word */ 
+      padding: 10px;
+      margin: 5px;
+   } 
+   .navbar li:hover{
+       text-decoration: underline;
+       color:gray;
+   } 
+   .left img{ 
+      max-width: 59px;
+      filter: drop-shadow(2px 4px 6px black); 
+      margin: 3px;
+   }  
+    .btn{  
+      width:80px;
+      font-family: 'Baloo 2', cursive;
+      background-color: aliceblue;  
+      margin: 0px 6px;
+      padding:5px 7px; 
+      border :2px solid black;
+      border-radius: 8px; 
+      cursor:pointer;
+    }
+    .btn:hover{
+      color: red;
+    } 
+    .container{
+     border: 3px solid white; 
+    color: wheat;
+    margin: 121px;
+    padding: 21px 15px;
+    width: 33%;
+    border-radius: 24px;
+    } 
+    .formgroup input{
+   text-align: center;
+   font-family: 'Baloo 2', cursive;
+    width: 317px;
+    border: 2px solid grey;
+    border-radius: 11px;
+    align-content: center;
+    color: black;
+    display: block;
+    background-color: #fafafa;
+    font-size: 14px; 
+    margin: 7px auto; /* auto is used for centring the input box */
+    padding: 7px;
+    } 
+    .container h1{
+      text-align: center;
+    } 
+    .btn1{
+    border: 2px solid grey;
+    width: 97px;
+    height: 32px;
+    margin: 19px 207px;
+    border-radius: 20px;
+    font-family: 'Baloo 2', cursive;
+    font-size: large;
+    color: #0608088f;
+    }
+
+</style></head>
+
+ 
+
+<body> 
+   <header class="header">
+      <div class="left"> 
+         <!-- left box for logo   --> 
+         <img class="image" src="./Isha&#39;s Fitness And Centre_files/jim_logo.jpg" alt=":)"> 
+
+      </div> 
+      <div class="centre">
+      <!-- mid bax for navigation -->  
+      <nav class="navbar"> 
+         <ul>
+        <li><a href="http://127.0.0.1:5500/Projects/project1.html#" class="active"></a>Home</li>
+        <li><a href="http://127.0.0.1:5500/Projects/project1.html#" class="active"></a>Fitness</li>
+        <li><a href="http://127.0.0.1:5500/Projects/project1.html#" class="active"></a>About Us </li>
+        <li><a href="http://127.0.0.1:5500/Projects/project1.html#" class="active"></a>Contact Us</li>
+      </ul>
+     <!-- i am centre  --> 
+     </nav>
+      </div> 
+      <div class="right"> 
+         <!-- right box for seacrh bar --> 
+        <button class="btn">Call Us</button>
+        <button class="btn">Email</button>
+
+      </div>
+   </header> 
+   <div class="container"> 
+     <h1>Join the best Gym of Dehradun </h1> 
+     <form action="http://127.0.0.1:5500/Projects/noaction.php">
+      <!-- //craeting tjhe form group  --> 
+      <div class="formgroup">
+         <input type="text" name="" placeholder="Enter your Name "></div>
+         <div class="formgroup">
+         <input type="text" email="" placeholder="Enter your Email Id"></div>
+         <div class="formgroup"> 
+         <input type="number" conatct="" no.="" placeholder="Enter your Contact Number "> </div> 
+         <div class="formgroup">
+            <input type="text" address="" no.="" placeholder="Enter your address "></div>
+         <button class="btn1">Submit</button>
+     </form>
+   </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
